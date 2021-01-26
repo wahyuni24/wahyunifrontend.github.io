@@ -1,0 +1,51 @@
+art-list {
+    display: block;
+	margin-top: 32px;
+    width: 100%;
+    padding: 16px;
+}
+
+art-list > .placeholder {
+    font-weight: lighter;
+    color: rgba(0,0,0,0.5);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+art-item {
+    display: block;
+	margin-bottom: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+art-item .fan-art-art {
+    width: 100%;
+    max-height: 800px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.art-info {
+    padding: 24px;
+	align:center;
+}
+
+.art-info > h2 {
+    font-weight: lighter;
+	align:center;
+	object-position: center;
+}
+
+.art-info > p {
+    margin-top: 10px;
+    overflow: hidden;
+	align:center;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 10; /* number of lines to show */
+}
